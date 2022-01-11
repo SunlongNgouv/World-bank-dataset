@@ -34,7 +34,7 @@ This project covered *some strategies*, including *data wrangling, engineering a
 
 
 ### Data management strategy:
-1. Data Wrangling
+1. Data Wrangling 
 * Find nulls through sum-nulls and correlation plot techniques.
 * Replace null with proper values, like means, median or mode of each column, or drop rows containing nulls.
 * Consult internet for key information to manipulate nulls.
