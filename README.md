@@ -35,12 +35,12 @@ This project covered *some strategies*, including *data wrangling, engineering a
 
 ### Data management strategy:
 1. Data Wrangling 
-* Find nulls through sum-nulls and correlation plot techniques.
-* Replace null with proper values, like means, median or mode of each column, or drop rows containing nulls.
-* Consult internet for key information to manipulate nulls.
+* Find nulls through sum-nulls and missing value via correlation plot techniques.
+* Replace nulls or missing values with proper values, like means, median or mode of each column, or drop rows containing nulls or missing values.
+* Consult internet for key information to manipulate nulls or missing values.
 
 2. Data Engineering
-* Run correlation matrix to indenify relationship among columns.
+* Run correlation matrix to indenify relationships among columns.
 * Plot out distributions of each attribute to find central tendency, skewness and outliers in the dataset. 
 * Run linear regression to highly correlated varibles influencing the GDP growth.
 
