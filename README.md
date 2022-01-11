@@ -1,7 +1,7 @@
 # World Bank Data Analysis with Python
 
 ### Introduction
-This project covered *some strategies* applied for *data wrangling, engineering and reporting* with data set from **World Bank Demography and Census**. The purpose was to identify key factors influencing a country's GDP growth. The scope of this project was narrowed down to 13 countries in Central Asia including:
+This project covered *some strategies*, including *data wrangling, engineering and reporting*, with dataset from **World Bank Demography and Census** to identify key influential factors against GDP growth of each countries. The project scoped to 13 countries in Central Asia including:
 1. Bangladesh
 2. Bhutan
 3. China
@@ -35,18 +35,18 @@ This project covered *some strategies* applied for *data wrangling, engineering 
 
 ### Data management strategy:
 1. Data Wrangling
-* Find null columns through sum nulls and correlation plot
-* Replace null values with means and median of each column, or drop nulls
+* Find nulls through sum-nulls and correlation plot techniques.
+* Replace null with proper values, like means, median or mode of each column, or drop rows containing nulls.
+* Consult internet for key information to manipulate nulls.
 
 2. Data Engineering
-* Correlation matrix
-* Standard distribution plots of each attribute
-* Central tendency and standard deviation calculations
-* Linear regression
+* Run correlation matrix to indenify relationship among columns.
+* Plot out distributions of each attribute to find central tendency, skewness and outliers in the dataset. 
+* Run linear regression to highly correlated varibles influencing the GDP growth.
 
 3. Reporting
 * Bar plots of high correlated attributes influencing a country's GDP growth
-* Pie chart of industrial shares to a country's GDP
-* Scatter plot of correlation and residue between middle-class income and tax revenue gain
+* Pie charts of industrial shares to a country's GDP
+* Scatter plots of correlation and residue between middle-class income and tax revenue gain
 * Bar charts representing different percentages of population particiapting in each industry
-
+* Residual plots to reveal outliers
